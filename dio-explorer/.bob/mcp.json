@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "dio-explorer": {
+      "command": "node",
+      "args": [
+        "/home/marcos/Studies/AI/IBM-Bob-DIO-Bootcamp/projects/Final-Project-IBM-Bob-Formation/dio-explorer/mcp/build/index.js"
+      ]
+    }
+  }
+}

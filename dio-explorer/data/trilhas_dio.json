@@ -1,0 +1,541 @@
+{
+  "formations": [
+    {
+      "id": 1,
+      "name": "Python AI Backend Developer",
+      "technology": "Python",
+      "level": "Intermediate",
+      "modules": 12,
+      "total_xp": 18500,
+      "badges": ["Python Essentials", "REST API Builder", "AI Integration Expert", "Backend Specialist"],
+      "promotions": [
+        { "partner": "Alura", "discount": "30% off annual plan" },
+        { "partner": "AWS", "discount": "Free tier extended for 6 months" }
+      ],
+      "lives": [
+        { "title": "Python Best Practices with FastAPI", "instructor": "Ana Lima", "duration_minutes": 90 },
+        { "title": "Integrating OpenAI APIs in Python Projects", "instructor": "Carlos Mendes", "duration_minutes": 120 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Java Spring Boot Full Stack",
+      "technology": "Java",
+      "level": "Advanced",
+      "modules": 15,
+      "total_xp": 24000,
+      "badges": ["Java Fundamentals", "Spring Boot Master", "Microservices Architect", "Full Stack Java"],
+      "promotions": [
+        { "partner": "JetBrains", "discount": "50% off IntelliJ IDEA first year" },
+        { "partner": "Oracle", "discount": "Free Oracle Cloud credits worth $300" }
+      ],
+      "lives": [
+        { "title": "Building RESTful APIs with Spring Boot 3", "instructor": "Fernanda Rocha", "duration_minutes": 110 },
+        { "title": "Spring Security and JWT Authentication", "instructor": "Bruno Carvalho", "duration_minutes": 95 },
+        { "title": "Dockerizing Java Applications", "instructor": "Letícia Souza", "duration_minutes": 80 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "React Web Developer",
+      "technology": "React",
+      "level": "Intermediate",
+      "modules": 10,
+      "total_xp": 15000,
+      "badges": ["HTML/CSS Pro", "JavaScript ES6+", "React Fundamentals", "React Hooks Expert"],
+      "promotions": [
+        { "partner": "Rocketseat", "discount": "20% off NLW premium access" }
+      ],
+      "lives": [
+        { "title": "React 18 New Features Deep Dive", "instructor": "Pedro Alves", "duration_minutes": 100 },
+        { "title": "State Management with Zustand and Redux Toolkit", "instructor": "Marina Castro", "duration_minutes": 115 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cloud Native with AWS",
+      "technology": "AWS",
+      "level": "Advanced",
+      "modules": 18,
+      "total_xp": 28000,
+      "badges": ["AWS Cloud Practitioner", "EC2 & S3 Expert", "Serverless Architect", "AWS Solutions Builder"],
+      "promotions": [
+        { "partner": "AWS", "discount": "Voucher for AWS Certified Cloud Practitioner exam" },
+        { "partner": "Pluralsight", "discount": "30-day free trial" }
+      ],
+      "lives": [
+        { "title": "AWS Lambda and API Gateway in Production", "instructor": "Roberto Nunes", "duration_minutes": 130 },
+        { "title": "Infrastructure as Code with Terraform on AWS", "instructor": "Simone Barros", "duration_minutes": 120 },
+        { "title": "Cost Optimization Strategies on AWS", "instructor": "Thiago Pires", "duration_minutes": 75 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Data Science with Python and Machine Learning",
+      "technology": "Data Science",
+      "level": "Advanced",
+      "modules": 20,
+      "total_xp": 32000,
+      "badges": ["Data Wrangling Pro", "Pandas & NumPy Expert", "ML Model Builder", "Data Science Champion"],
+      "promotions": [
+        { "partner": "Kaggle", "discount": "Kaggle Pro subscription for 3 months" },
+        { "partner": "DataCamp", "discount": "40% off annual plan" }
+      ],
+      "lives": [
+        { "title": "Feature Engineering for Real-World Datasets", "instructor": "Julia Martins", "duration_minutes": 140 },
+        { "title": "Deploying ML Models with FastAPI and Docker", "instructor": "Eduardo Santos", "duration_minutes": 120 },
+        { "title": "Explainable AI: SHAP and LIME in Practice", "instructor": "Camila Torres", "duration_minutes": 105 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Angular Enterprise Developer",
+      "technology": "Angular",
+      "level": "Intermediate",
+      "modules": 11,
+      "total_xp": 16500,
+      "badges": ["TypeScript Foundation", "Angular Core", "RxJS Reactive Programming", "Angular Enterprise Dev"],
+      "promotions": [
+        { "partner": "Udemy", "discount": "Free Angular advanced course coupon" }
+      ],
+      "lives": [
+        { "title": "Angular 17 Signals and the New Control Flow", "instructor": "Ricardo Oliveira", "duration_minutes": 90 },
+        { "title": "Unit Testing Angular Apps with Jest", "instructor": "Natália Ferreira", "duration_minutes": 85 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "DevOps and CI/CD Pipelines",
+      "technology": "DevOps",
+      "level": "Advanced",
+      "modules": 16,
+      "total_xp": 26000,
+      "badges": ["Linux SysAdmin", "Docker & Kubernetes", "CI/CD Engineer", "DevOps Champion"],
+      "promotions": [
+        { "partner": "GitLab", "discount": "GitLab Ultimate free for 90 days" },
+        { "partner": "GitHub", "discount": "GitHub Copilot 60-day trial" }
+      ],
+      "lives": [
+        { "title": "Building Multi-Stage Docker Images", "instructor": "Fábio Gomes", "duration_minutes": 95 },
+        { "title": "GitLab CI/CD from Zero to Production", "instructor": "Patrícia Leal", "duration_minutes": 125 },
+        { "title": "Kubernetes Horizontal Pod Autoscaling", "instructor": "André Vieira", "duration_minutes": 100 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "iOS Developer with Swift",
+      "technology": "Swift",
+      "level": "Intermediate",
+      "modules": 13,
+      "total_xp": 19500,
+      "badges": ["Swift Basics", "UIKit Master", "SwiftUI Builder", "iOS App Publisher"],
+      "promotions": [
+        { "partner": "Apple Developer", "discount": "30-day extended App Store review priority" }
+      ],
+      "lives": [
+        { "title": "SwiftUI Animations and Transitions", "instructor": "Mariana Fonseca", "duration_minutes": 110 },
+        { "title": "Core Data and CloudKit Integration", "instructor": "Lucas Cardoso", "duration_minutes": 100 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Android Developer with Kotlin",
+      "technology": "Kotlin",
+      "level": "Intermediate",
+      "modules": 12,
+      "total_xp": 18000,
+      "badges": ["Kotlin Fundamentals", "Jetpack Compose Expert", "Android Architecture", "Play Store Publisher"],
+      "promotions": [
+        { "partner": "Google Play", "discount": "One-time app submission fee waived" }
+      ],
+      "lives": [
+        { "title": "Jetpack Compose State Management", "instructor": "Isabela Moura", "duration_minutes": 95 },
+        { "title": "Coroutines and Flow in Android", "instructor": "Diego Ramos", "duration_minutes": 115 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cybersecurity Analyst",
+      "technology": "Cybersecurity",
+      "level": "Advanced",
+      "modules": 17,
+      "total_xp": 27000,
+      "badges": ["Network Security Basics", "Ethical Hacking", "SIEM & Log Analysis", "Cybersecurity Champion"],
+      "promotions": [
+        { "partner": "TryHackMe", "discount": "3 months premium subscription" },
+        { "partner": "Offensive Security", "discount": "20% off OSCP certification" }
+      ],
+      "lives": [
+        { "title": "Penetration Testing Methodology", "instructor": "Rafael Costa", "duration_minutes": 135 },
+        { "title": "Incident Response and Digital Forensics", "instructor": "Viviane Monteiro", "duration_minutes": 120 },
+        { "title": "Zero Trust Architecture in Practice", "instructor": "Henrique Dias", "duration_minutes": 90 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Node.js Backend Developer",
+      "technology": "Node.js",
+      "level": "Intermediate",
+      "modules": 11,
+      "total_xp": 16000,
+      "badges": ["JavaScript Backend", "Express.js Pro", "Prisma & ORM Expert", "Node.js Developer"],
+      "promotions": [
+        { "partner": "Railway", "discount": "Free $10 hosting credit" }
+      ],
+      "lives": [
+        { "title": "Building APIs with Fastify and Zod", "instructor": "Gabriel Lima", "duration_minutes": 100 },
+        { "title": "Caching Strategies with Redis and Node.js", "instructor": "Tatiana Campos", "duration_minutes": 90 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Microsoft Azure Cloud Engineer",
+      "technology": "Azure",
+      "level": "Advanced",
+      "modules": 19,
+      "total_xp": 30000,
+      "badges": ["Azure Fundamentals", "Azure DevOps Engineer", "Azure AI Services", "Azure Cloud Champion"],
+      "promotions": [
+        { "partner": "Microsoft", "discount": "Voucher for AZ-900 certification exam" },
+        { "partner": "LinkedIn Learning", "discount": "2 months free premium" }
+      ],
+      "lives": [
+        { "title": "Azure Functions and Event-Driven Architecture", "instructor": "Priscila Azevedo", "duration_minutes": 115 },
+        { "title": "Azure Kubernetes Service (AKS) Deep Dive", "instructor": "Rodrigo Teixeira", "duration_minutes": 130 },
+        { "title": "Monitoring Azure Resources with Application Insights", "instructor": "Aline Pereira", "duration_minutes": 85 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Vue.js Progressive Web Apps",
+      "technology": "Vue.js",
+      "level": "Beginner",
+      "modules": 8,
+      "total_xp": 10500,
+      "badges": ["HTML/CSS Pro", "Vue.js Essentials", "PWA Builder"],
+      "promotions": [
+        { "partner": "Nuxt.js", "discount": "Nuxt premium templates pack free" }
+      ],
+      "lives": [
+        { "title": "Vue 3 Composition API Workshop", "instructor": "Fernanda Lima", "duration_minutes": 85 },
+        { "title": "Converting Vue Apps to PWA", "instructor": "Marco Andrade", "duration_minutes": 75 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Blockchain Developer with Solidity",
+      "technology": "Blockchain",
+      "level": "Advanced",
+      "modules": 14,
+      "total_xp": 22000,
+      "badges": ["Blockchain Basics", "Smart Contract Developer", "DeFi Builder", "Web3 Champion"],
+      "promotions": [
+        { "partner": "Alchemy", "discount": "Free Alchemy Growth plan for 6 months" },
+        { "partner": "Infura", "discount": "Extended API rate limits for 90 days" }
+      ],
+      "lives": [
+        { "title": "Writing Secure Smart Contracts in Solidity", "instructor": "Leandro Brito", "duration_minutes": 120 },
+        { "title": "Building a Full-Stack dApp with Hardhat and React", "instructor": "Cecília Neves", "duration_minutes": 135 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Google Cloud Professional",
+      "technology": "GCP",
+      "level": "Advanced",
+      "modules": 17,
+      "total_xp": 26500,
+      "badges": ["GCP Fundamentals", "BigQuery Analyst", "GKE Specialist", "Google Cloud Champion"],
+      "promotions": [
+        { "partner": "Google Cloud", "discount": "$300 free trial credits" },
+        { "partner": "Coursera", "discount": "1 month free Coursera Plus" }
+      ],
+      "lives": [
+        { "title": "BigQuery for Real-Time Analytics", "instructor": "Gustavo Almeida", "duration_minutes": 110 },
+        { "title": "Deploying Workloads on Google Kubernetes Engine", "instructor": "Renata Fontes", "duration_minutes": 120 },
+        { "title": "Vertex AI: MLOps on Google Cloud", "instructor": "Paulo Correia", "duration_minutes": 100 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "PHP Laravel Web Developer",
+      "technology": "PHP",
+      "level": "Intermediate",
+      "modules": 10,
+      "total_xp": 14500,
+      "badges": ["PHP Basics", "Laravel Fundamentals", "Eloquent ORM Pro", "Laravel Developer"],
+      "promotions": [
+        { "partner": "Laravel Forge", "discount": "2 months free Forge subscription" }
+      ],
+      "lives": [
+        { "title": "Laravel 11 New Features and Upgrade Guide", "instructor": "Sílvio Barbosa", "duration_minutes": 90 },
+        { "title": "Queue Systems with Laravel Horizon", "instructor": "Elisa Cunha", "duration_minutes": 85 }
+      ]
+    },
+    {
+      "id": 17,
+      "name": ".NET C# Full Stack Developer",
+      "technology": ".NET / C#",
+      "level": "Advanced",
+      "modules": 16,
+      "total_xp": 25000,
+      "badges": ["C# Fundamentals", "ASP.NET Core Pro", "Entity Framework Expert", ".NET Full Stack Developer"],
+      "promotions": [
+        { "partner": "Microsoft", "discount": "Voucher for AZ-204 certification exam" },
+        { "partner": "JetBrains", "discount": "40% off Rider IDE first year" }
+      ],
+      "lives": [
+        { "title": "Minimal APIs with .NET 8", "instructor": "Cristiano Moraes", "duration_minutes": 100 },
+        { "title": "Blazor WebAssembly for Full Stack .NET", "instructor": "Heloísa Torres", "duration_minutes": 115 },
+        { "title": "Clean Architecture in .NET Projects", "instructor": "Valter Nascimento", "duration_minutes": 105 }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "UI/UX Design for Developers",
+      "technology": "Design",
+      "level": "Beginner",
+      "modules": 7,
+      "total_xp": 9000,
+      "badges": ["Design Thinking", "Figma Pro", "Accessibility Champion"],
+      "promotions": [
+        { "partner": "Figma", "discount": "3 months free Figma Professional" }
+      ],
+      "lives": [
+        { "title": "Designing Accessible Interfaces from Scratch", "instructor": "Amanda Ferreira", "duration_minutes": 80 },
+        { "title": "Design Tokens and Component Libraries in Figma", "instructor": "Otávio Lopes", "duration_minutes": 70 }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Go Language Backend Engineer",
+      "technology": "Go",
+      "level": "Intermediate",
+      "modules": 12,
+      "total_xp": 17500,
+      "badges": ["Go Fundamentals", "Goroutines & Concurrency", "Go REST APIs", "Go Backend Engineer"],
+      "promotions": [
+        { "partner": "Fly.io", "discount": "Free $25 hosting credit" }
+      ],
+      "lives": [
+        { "title": "Building High-Performance APIs in Go with Gin", "instructor": "Rodrigo Campos", "duration_minutes": 100 },
+        { "title": "Working with gRPC and Protocol Buffers in Go", "instructor": "Lúcia Brandão", "duration_minutes": 115 }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Rust Systems Programmer",
+      "technology": "Rust",
+      "level": "Advanced",
+      "modules": 14,
+      "total_xp": 21000,
+      "badges": ["Rust Fundamentals", "Memory Safety Expert", "Async Rust", "Rust Systems Developer"],
+      "promotions": [
+        { "partner": "No Starch Press", "discount": "50% off The Rust Programming Language book" }
+      ],
+      "lives": [
+        { "title": "Ownership and Borrowing Deep Dive", "instructor": "Marcelo Pinto", "duration_minutes": 120 },
+        { "title": "Building a CLI Tool in Rust", "instructor": "Sofia Vaz", "duration_minutes": 95 }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "SQL and Database Engineering",
+      "technology": "SQL / Databases",
+      "level": "Intermediate",
+      "modules": 9,
+      "total_xp": 13000,
+      "badges": ["SQL Fundamentals", "Query Optimizer", "Database Design Pro", "DB Engineer"],
+      "promotions": [
+        { "partner": "Neon", "discount": "Free Neon database Pro plan for 2 months" }
+      ],
+      "lives": [
+        { "title": "Advanced SQL: Window Functions and CTEs", "instructor": "Beatriz Melo", "duration_minutes": 90 },
+        { "title": "Database Performance Tuning and Indexing", "instructor": "Caio Fernandes", "duration_minutes": 100 }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Flutter Cross-Platform Mobile Developer",
+      "technology": "Flutter",
+      "level": "Intermediate",
+      "modules": 13,
+      "total_xp": 19000,
+      "badges": ["Dart Fundamentals", "Flutter Widgets Expert", "Flutter State Management", "Cross-Platform Publisher"],
+      "promotions": [
+        { "partner": "Firebase", "discount": "Blaze plan credits worth $50" }
+      ],
+      "lives": [
+        { "title": "Flutter Riverpod 2.0 State Management", "instructor": "Thiago Macedo", "duration_minutes": 105 },
+        { "title": "Publishing Flutter Apps to iOS and Android Stores", "instructor": "Larissa Gomes", "duration_minutes": 80 }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Prompt Engineering and Generative AI",
+      "technology": "Generative AI",
+      "level": "Beginner",
+      "modules": 8,
+      "total_xp": 11000,
+      "badges": ["AI Literacy", "Prompt Crafter", "LLM Applications Builder"],
+      "promotions": [
+        { "partner": "OpenAI", "discount": "$20 API credits" },
+        { "partner": "Anthropic", "discount": "$15 Claude API credits" }
+      ],
+      "lives": [
+        { "title": "Advanced Prompt Engineering Techniques", "instructor": "Vanessa Ribeiro", "duration_minutes": 90 },
+        { "title": "Building AI Agents with LangChain", "instructor": "Felipe Araújo", "duration_minutes": 120 }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Power BI Data Analyst",
+      "technology": "Power BI",
+      "level": "Beginner",
+      "modules": 8,
+      "total_xp": 10000,
+      "badges": ["Data Visualization Basics", "DAX Formula Expert", "Power BI Report Builder"],
+      "promotions": [
+        { "partner": "Microsoft", "discount": "Power BI Pro 60-day free trial" }
+      ],
+      "lives": [
+        { "title": "DAX Advanced Calculations for Business Analytics", "instructor": "Adriana Sousa", "duration_minutes": 95 },
+        { "title": "Power BI Embedded for Web Applications", "instructor": "Erick Monteiro", "duration_minutes": 85 }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Salesforce Developer",
+      "technology": "Salesforce",
+      "level": "Intermediate",
+      "modules": 11,
+      "total_xp": 16000,
+      "badges": ["Salesforce Basics", "Apex Developer", "Lightning Web Components", "Salesforce Certified Dev"],
+      "promotions": [
+        { "partner": "Salesforce Trailhead", "discount": "Superbadge bundle unlock" }
+      ],
+      "lives": [
+        { "title": "Apex Triggers and Governor Limits", "instructor": "Jonatan Freitas", "duration_minutes": 100 },
+        { "title": "Lightning Web Components for Salesforce", "instructor": "Débora Castro", "duration_minutes": 90 }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Game Development with Unity",
+      "technology": "Unity / C#",
+      "level": "Intermediate",
+      "modules": 14,
+      "total_xp": 20500,
+      "badges": ["C# for Games", "Unity Physics Expert", "Shader Graph Pro", "Unity Game Developer"],
+      "promotions": [
+        { "partner": "Unity", "discount": "Unity Pro 3-month trial" },
+        { "partner": "Asset Store", "discount": "$50 Unity Asset Store credit" }
+      ],
+      "lives": [
+        { "title": "Multiplayer Game Architecture with Unity Netcode", "instructor": "Tarcísio Medeiros", "duration_minutes": 130 },
+        { "title": "Optimizing Unity Games for Mobile Platforms", "instructor": "Ingrid Santos", "duration_minutes": 100 }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "MLOps and AI Engineering",
+      "technology": "MLOps",
+      "level": "Advanced",
+      "modules": 18,
+      "total_xp": 29000,
+      "badges": ["ML Fundamentals", "Model Deployment Expert", "Feature Store Pro", "MLOps Engineer"],
+      "promotions": [
+        { "partner": "MLflow", "discount": "Databricks Community Edition extended access" },
+        { "partner": "Weights & Biases", "discount": "Teams plan free for 6 months" }
+      ],
+      "lives": [
+        { "title": "Model Monitoring and Drift Detection in Production", "instructor": "Henrique Lima", "duration_minutes": 120 },
+        { "title": "Building ML Pipelines with Kubeflow", "instructor": "Raquel Duarte", "duration_minutes": 135 },
+        { "title": "LLMOps: Managing Large Language Models at Scale", "instructor": "Augusto Peixoto", "duration_minutes": 110 }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Ruby on Rails Full Stack",
+      "technology": "Ruby",
+      "level": "Intermediate",
+      "modules": 10,
+      "total_xp": 14000,
+      "badges": ["Ruby Fundamentals", "Rails MVC Expert", "ActiveRecord Pro", "Rails Full Stack Dev"],
+      "promotions": [
+        { "partner": "Heroku", "discount": "Heroku Eco Dynos free for 3 months" }
+      ],
+      "lives": [
+        { "title": "Rails 7 Turbo and Hotwire Deep Dive", "instructor": "Solange Barros", "duration_minutes": 95 },
+        { "title": "Testing Rails Apps with RSpec", "instructor": "Nilton Faria", "duration_minutes": 85 }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Embedded Systems and IoT with C",
+      "technology": "C / IoT",
+      "level": "Advanced",
+      "modules": 15,
+      "total_xp": 23000,
+      "badges": ["C Programming Pro", "Microcontroller Expert", "MQTT & IoT Protocols", "IoT Systems Engineer"],
+      "promotions": [
+        { "partner": "Arduino", "discount": "Arduino IoT Cloud Pro plan for 60 days" },
+        { "partner": "Raspberry Pi Foundation", "discount": "30% off official accessories" }
+      ],
+      "lives": [
+        { "title": "Real-Time Operating Systems with FreeRTOS", "instructor": "Waldemar Cunha", "duration_minutes": 125 },
+        { "title": "Building an IoT Dashboard with MQTT and Node-RED", "instructor": "Cláudia Rezende", "duration_minutes": 110 }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Kubernetes and Cloud-Native Operations",
+      "technology": "Kubernetes",
+      "level": "Advanced",
+      "modules": 17,
+      "total_xp": 27500,
+      "badges": ["Container Fundamentals", "Kubernetes Administrator", "Helm Charts Expert", "Cloud-Native Champion"],
+      "promotions": [
+        { "partner": "CNCF", "discount": "Discount voucher for CKA certification exam" },
+        { "partner": "Rancher Labs", "discount": "Rancher Pro 90-day free trial" }
+      ],
+      "lives": [
+        { "title": "Kubernetes Operators: Building Custom Controllers", "instructor": "Mário Rezende", "duration_minutes": 140 },
+        { "title": "Service Mesh with Istio on Kubernetes", "instructor": "Juliana Paiva", "duration_minutes": 120 },
+        { "title": "GitOps with ArgoCD and Flux", "instructor": "Osmar Cavalcanti", "duration_minutes": 105 }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Next.js Full Stack Developer",
+      "technology": "Next.js",
+      "level": "Intermediate",
+      "modules": 11,
+      "total_xp": 16500,
+      "badges": ["React Fundamentals", "Next.js App Router", "Server Components Expert", "Next.js Full Stack Dev"],
+      "promotions": [
+        { "partner": "Vercel", "discount": "Vercel Pro plan free for 2 months" }
+      ],
+      "lives": [
+        { "title": "Next.js 14 Server Actions in Depth", "instructor": "Bruna Souza", "duration_minutes": 100 },
+        { "title": "Authentication with NextAuth.js and OAuth", "instructor": "Cezar Prado", "duration_minutes": 90 }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Agile and Scrum for Software Teams",
+      "technology": "Agile / Scrum",
+      "level": "Beginner",
+      "modules": 6,
+      "total_xp": 7500,
+      "badges": ["Agile Mindset", "Scrum Practitioner", "Kanban Expert"],
+      "promotions": [
+        { "partner": "Scrum.org", "discount": "Discount on PSM I certification exam" }
+      ],
+      "lives": [
+        { "title": "Running Effective Sprint Ceremonies", "instructor": "Larissa Dantas", "duration_minutes": 70 },
+        { "title": "Scaling Agile with SAFe and LeSS", "instructor": "Maurício Brandão", "duration_minutes": 80 }
+      ]
+    }
+  ]
+}
